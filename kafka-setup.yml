@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  become: true
+  pre_tasks:
+    - name: Install JDK
+      package:
+        name: openjdk-8-jdk
+  roles:
+    - wtanaka.zookeeper
+    - wtanaka.apache-kafka

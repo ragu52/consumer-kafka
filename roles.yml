@@ -1,0 +1,4 @@
+---
+- src: wtanaka.oracle-java
+- src: wtanaka.zookeeper
+- src: wtanaka.apache-kafka
